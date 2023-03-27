@@ -1,8 +1,4 @@
-{{ define "main" }}
-
-{{ partial "page-title.html" . }}
-
-{{ with .Params.pricing }}
+{{ define "main" }} {{ partial "page-title.html" . }} {{ with .Params.pricing }}
 {{ if .enable }}
 <section class="pricing-table section bg-gray">
   <div class="container">
@@ -12,16 +8,20 @@
       <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="pricing-item text-center">
           <div class="price-title">
-            {{ with .name }}<h3>{{ . | markdownify }}</h3>{{ end }}
-            {{ with .price }}<strong class="value">{{ . }}</strong>{{ end }}
-            {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+            {{ with .name }}
+            <h3>{{ . | markdownify }}</h3>
+            {{ end }} {{ with .price }}<strong class="value">{{ . }}</strong>{{
+            end }} {{ with .content }}{{ . | $.Page.RenderString (dict "display"
+            "block") }}{{ end }}
           </div>
           <ul>
             {{ range .services }}
             <li>{{ . | markdownify }}</li>
             {{ end }}
           </ul>
-          <a class="btn btn-small" href="{{ .link | safeURL }}">{{ i18n "buy_now" }}</a>
+          <a class="btn btn-small" href="{{ .link | safeURL }}"
+            >{{ i18n "buy_now" }}</a
+          >
         </div>
       </div>
       {{ end }}
@@ -29,13 +29,10 @@
     </div>
   </div>
 </section>
-{{ end }}
-{{ end }}
+{{ end }} {{ end }}
 
 <!-- Call to action -->
-{{ if .Params.cta.enable }}
-{{ partial "cta.html" . }}
-{{ end }}
+{{ if .Params.cta.enable }} {{ partial "cta.html" . }} {{ end }}
 <!-- /Call to action -->
 
 {{ end }}

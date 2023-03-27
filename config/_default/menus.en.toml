@@ -3,80 +3,35 @@
 # main menu
 [[main]]
 name = "Home"
-url = ""
+url = "/"
 weight = 1
 
 [[main]]
-name = "About"
+name = "About Us"
 url = "about/"
 weight = 2
 
 [[main]]
-name = "Project"
-url = "project/"
 weight = 3
-
-[[main]]
-name = "Blog"
-url = "blog/"
-weight = 4
-
-[[main]]
-weight = 5
-name = "More"
+name = "Programs"
 hasChildren = true
 
   [[main]]
-  parent = "More"
-  name = "Service"
-  url = "service/"
+  parent = "Programs"
+  name = "Unity DMV"
+  url = "unitydmv/"
   weight = 1
 
   [[main]]
-  parent = "More"
-  name = "Pricing"
-  url = "pricing/"
+  parent = "Programs"
+  name = "Unity NC"
+  url = "unitync/"
   weight = 2
 
-  [[main]]
-  parent = "More"
-  name = "FAQ"
-  url = "faq/"
-  weight = 3
-  
-[[main]]
-name = "Contact"
-url = "contact/"
-weight = 6
 
 
 # footer menu
 [[footer]]
-name = "About"
+name = "About Us"
 url = "about/"
-weight = 2
-
-[[footer]]
-name = "Project"
-url = "project/"
-weight = 3
-
-[[footer]]
-name = "Service"
-url = "service/"
-weight = 4
-
-[[footer]]
-name = "Pricing"
-url = "pricing/"
-weight = 5
-
-[[footer]]
-name = "FAQ"
-url = "faq/"
-weight = 6
-
-[[footer]]
-name = "Contact"
-url = "contact/"
-weight = 7
+weight = 1

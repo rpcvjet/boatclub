@@ -1,15 +1,14 @@
 ---
-title: "About Our Company"
-description: "this is meta description"
-bg_image: "images/feature-bg.jpg"
+title: "About Unity Boat Club"
+description: ""
+bg_image: "images/coaches.jpg"
 layout: "about"
 draft: false
-
 
 ################################## About #####################################
 about:
   enable : true
-  image : "images/company/about.jpg"
+  image : "images/sculler.png"
   title : "We strive to be the best and <br> make awesome work."
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam iure officiis facere vitae itaque.
 
@@ -19,7 +18,7 @@ about:
   dolor sit amet, consectetur adipisicing elit. Provident, neque!"
 
   button:
-    enable : true
+    enable : false
     label : "Download Company Profile"
     link : "#"
 
@@ -56,7 +55,7 @@ about:
 
 ################################ feature #####################################
 features:
-  enable : true
+  enable : false
   title : "We are indepented Design & Development Agency"
   feature_item:
   # feature item loop
@@ -92,11 +91,11 @@ features:
 
 #################################### testimonial & mission vision #######################################
 testimonial:
-  enable : true
+  enable : false
   # testimonial content comes from "data/*/homepage.yml" file
 
 mission_vision:
-  enable : true
+  enable : false
   tabs:
   # tab item loop
   - name : "Vision"
@@ -134,6 +133,6 @@ mission_vision:
 
 ############################# call to action #################################
 cta:
-  enable : true
+  enable : false
   # call to action content comes from "_index.md"
 ---

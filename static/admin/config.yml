@@ -1,5 +1,3 @@
-publish_mode: editorial_workflow
-
 media_folder: "static/images/" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/" # The src attribute for uploaded media will begin with /images/uploads
 
@@ -14,16 +12,25 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     folder: "content/english"
     fields: # The fields each document in this collection have
-        - {label: "Title", name: "title", widget: "string"}
+        - {label: "title", name: "title", widget: "string"}
         - {label: "description", name: "description", widget: "string"}
-        - {label: "Backround Image", name: "bg_image", widget: "file", required: false}
+        - {label: "Backround Image", name: "bg_image", widget: "image", required: false}
         - {label: "Publish Date", name: "publish_date", widget: "datetime"}
-        - {label: "Intro Blurb", name: "intro_blurb", widget: "text"}
-        - {label: "file", name: "image", widget: "files", required: false}
+        # - {label: "Intro Blurb", name: "intro_blurb", widget: "text"}
+        # - {label: "file", name: "image", widget: "files", required: false}
         - {label: "body", name: "body", widget: "markdown"}
         - {label: "tags", name: "tags", widget: "list", default: ["post"]}
-        - {label: "author", name: "author", widget: "string"}
-        - {label: "catagories", name: "catagories", widget: "list"} 
- 
- 
+        # - {label: "author", name: "author", widget: "string"}
+        # - {label: "catagories", name: "catagories", widget: "list"} 
+  - label: "Pages"
+    name: "pages"
+    files: 
+      - label: "About Us"
+        name: "about"
+        file: "content/english/test_about.md"
+        fields: # The fields each document in this collection have
+          - {label: "title", name: "title", widget: "string"}
+          # - {label: "description", name: "description", widget: "string"}
+          # - {label: "Backround Image", name: "bg_image", widget: "image", required: false}
+          # - {label: "about", name: "about", widget: "text", required: false}
 

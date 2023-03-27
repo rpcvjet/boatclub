@@ -264,6 +264,7 @@ input[type="tel"] {
     .section-subtitle {
       font-size: 24px; } }
 .page-title {
+  margin-top: 10px;
   padding: 100px 0; }
   .page-title .block {
     text-align: center; }
@@ -664,7 +665,8 @@ header .navbar-default .navbar-nav li a:hover {
   background-attachment: fixed;
   background-position: center center;
   padding: 170px 0 200px;
-  position: relative; }
+  position: relative;
+  margin-top: 10px; }
   @media (max-width: 1200px) {
     .slider {
       background-attachment: unset;
@@ -2171,7 +2173,7 @@ header .navbar-default .navbar-nav li a:hover {
     margin-bottom: 40px; }
 
 .footer {
-  background: #f1f1f1;
+  background: #ffc000;
   min-height: 205px;
   text-align: center;
   padding-top: 67px; }
