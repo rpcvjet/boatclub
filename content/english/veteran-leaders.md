@@ -1,7 +1,7 @@
 ---
 title: "Veteran Leaders"
 description: "Locations: DMV, North Carolina"
-bg_image: "images/feature-bg.jpg"
+bg_image: "images/veteran-banner.jpg"
 layout: "service"
 draft: false
 
