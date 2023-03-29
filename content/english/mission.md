@@ -1,5 +1,5 @@
 ---
-title: "About Unity Boat Club"
+title: "Unity Boat Club Mission Statement"
 description: ""
 bg_image: "images/coaches.jpg"
 layout: "about"
@@ -9,49 +9,44 @@ draft: false
 about:
   enable : true
   image : "images/sculler.png"
-  title : "We strive to be the best and <br> make awesome work."
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam iure officiis facere vitae itaque.
+  title : ""
+  content : "Unity Boat Club (“Unity”) is committed to bringing rowing opportunities and excellence in rowing to the diverse community of the District of Columbia, Maryland and Northern Virginia (DMV) area and other select boathouses around the country.  Unity is a volunteer-directed, non-profit, educational organization offering recreational and competitive rowing-discipline, camaraderie, fitness, and knowledge of water safety.  Its overall goal is to provide youth in adverse socio-economic situations; active duty or veteran military servicemembers; and physically and/or developmentally impaired individuals the opportunities they need to flourish on and off the water to utilize rowing in the pursuit of their academic endeavors and lifelong ambitions"
 
+  # button:
+  #   enable : false
+  #   label : "Download Company Profile"
+  #   link : "#"
 
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui vel cupiditate exercitationem, ea fuga est
-  velit nulla culpa modi quis iste tempora non, suscipit repellendus labore voluptatem dicta amet? Lorem ipsum
-  dolor sit amet, consectetur adipisicing elit. Provident, neque!"
+  # funfacts:
+  # # funfacts loop
+  # - icon : "fas fa-flask" #https://fontawesome.com/v5.15/icons
+  #   name : "Completed Projects"
+  #   count : "349"
 
-  button:
-    enable : false
-    label : "Download Company Profile"
-    link : "#"
+  # # funfacts loop
+  # - icon : "fas fa-fire-alt" #https://fontawesome.com/v5.15/icons
+  #   name : "Lines Of Code"
+  #   count : "35000"
 
-  funfacts:
-  # funfacts loop
-  - icon : "fas fa-flask" #https://fontawesome.com/v5.15/icons
-    name : "Completed Projects"
-    count : "349"
+  # # funfacts loop
+  # - icon : "fas fa-glasses" #https://fontawesome.com/v5.15/icons
+  #   name : "Satisfied Customer"
+  #   count : "70"
 
-  # funfacts loop
-  - icon : "fas fa-fire-alt" #https://fontawesome.com/v5.15/icons
-    name : "Lines Of Code"
-    count : "35000"
+  # # funfacts loop
+  # - icon : "fas fa-trophy" #https://fontawesome.com/v5.15/icons
+  #   name : "Awards Winner"
+  #   count : "10"
 
-  # funfacts loop
-  - icon : "fas fa-glasses" #https://fontawesome.com/v5.15/icons
-    name : "Satisfied Customer"
-    count : "70"
+  # # funfacts loop
+  # - icon : "fas fa-glass-cheers" #https://fontawesome.com/v5.15/icons
+  #   name : "Satisfied Customer"
+  #   count : "75"
 
-  # funfacts loop
-  - icon : "fas fa-trophy" #https://fontawesome.com/v5.15/icons
-    name : "Awards Winner"
-    count : "10"
-
-  # funfacts loop
-  - icon : "fas fa-glass-cheers" #https://fontawesome.com/v5.15/icons
-    name : "Satisfied Customer"
-    count : "75"
-
-  # funfacts loop
-  - icon : "fas fa-certificate" #https://fontawesome.com/v5.15/icons
-    name : "Awards Winner"
-    count : "20"
+  # # funfacts loop
+  # - icon : "fas fa-certificate" #https://fontawesome.com/v5.15/icons
+  #   name : "Awards Winner"
+  #   count : "20"
 
 ################################ feature #####################################
 features:

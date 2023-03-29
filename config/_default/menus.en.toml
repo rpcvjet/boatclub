@@ -7,8 +7,8 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "About Us"
-url = "about/"
+name = "Mission"
+url = "mission/"
 weight = 2
 
 [[main]]
@@ -18,20 +18,26 @@ hasChildren = true
 
   [[main]]
   parent = "Programs"
-  name = "Unity DMV"
-  url = "unitydmv/"
+  name = "Veteran Leaders"
+  url = "veteran-leaders/"
   weight = 1
 
   [[main]]
   parent = "Programs"
-  name = "Unity NC"
-  url = "unitync/"
+  name = "IDD"
+  url = "idd/"
   weight = 2
+
+  [[main]]
+  parent = "Programs"
+  name = "Youth"
+  url = "youth/"
+  weight = 3
 
 
 
 # footer menu
 [[footer]]
-name = "About Us"
-url = "about/"
+name = "Mission Statement"
+url = "mission/"
 weight = 1

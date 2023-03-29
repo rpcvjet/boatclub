@@ -5,7 +5,7 @@ banner:
   bg_image: "images/jumbo_home.jpg"
   bg_overlay: true
   title: "Unity Boat Club"
-  content: ""
+  content: "Unlocking potential through unity and inclusion one stroke at a time"
   button:
     enable: false
     label: "Discover Our Project"
@@ -15,10 +15,13 @@ banner:
 about:
   enable: true
   title: "About Us"
-  description: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
-  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
+  description: "Unity Boat Club is a program dedicated to unlocking potential through unity and inclusion in rowing. AWLRowing takes a three-pronged approach to enriching the lives of athletes and the sport itself:
+"
+  content: " <li> The first is by providing a safe space for athletes with intellectual or developmental disabilities to be themselves, grow, and improve their overall wellbeing both mentally and physically. </li>
+ <li> The second is by making the sport accessible to athletes in socio-economic circumstances that would otherwise prevent them from participating, and showing them that there are no limits to what they can achieve. </li>
+ <li> The third part of AWLRowing's approach is to provide military Veterans with disabilities with the resources, equipment, and guidance they need to find success, strength, and camaraderie in the rowing community. </li>
+"
   image: "images/erg1.jpg"
-
 
 ######################### Portfolio ###############################
 portfolio:

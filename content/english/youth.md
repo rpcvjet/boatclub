@@ -1,28 +1,22 @@
 ---
-title: "Service"
-description: "this is meta description"
-bg_image: "images/feature-bg.jpg"
+title: "Youth Programs"
+description: "Locations: DMV"
+bg_image: "images/youth.jpg"
 layout: "service"
 draft: false
 
 ########################### about service #############################
 about:
   enable : true
-  title : "Creative UX/UI Design Agency"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate soluta corporis odit, optio
-          cum! Accusantium numquam ab, natus excepturi architecto earum ipsa aliquam, illum, omnis rerum, eveniet
-          officia nihil. Eum quod iure nulla, soluta architecto distinctio. Nesciunt odio ullam expedita, neque fugit
-          maiores sunt perferendis placeat autem animi, nihil quis suscipit quibusdam ut reiciendis doloribus natus nemo
-          id quod illum aut culpa perspiciatis consequuntur tempore? Facilis nam vitae iure quisquam eius harum
-          consequatur sapiente assumenda, officia voluptas quas numquam placeat, alias molestias nisi laudantium
-          nesciunt perspiciatis suscipit hic voluptate corporis id distinctio earum. Dolor reprehenderit fuga dolore
-          officia adipisci neque!"
-  image : "images/company/company-group-pic.jpg"
+  title : "UBC Youth"
+  content : "Providing youth in adverse socio-economic situations the opportunities they need to flourish" 
+
+  image : "images/dmv.jpg"
 
 
 ########################## featured service ############################
 featured_service:
-  enable : true
+  enable : false
   service_item:
     # featured service item loop
     - name : "Interface Design"
@@ -45,7 +39,7 @@ featured_service:
 
 ############################# Service ###############################
 service:
-  enable : true
+  enable : false
   title : "Our Services"
   description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
           blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
@@ -92,6 +86,6 @@ service:
 
 ############################# call to action #################################
 cta:
-  enable : true
+  enable : false
   # call to action content comes from "_index.md"
 ---
