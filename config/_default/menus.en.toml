@@ -33,11 +33,3 @@ hasChildren = true
   name = "Youth"
   url = "youth/"
   weight = 3
-
-
-
-# footer menu
-[[footer]]
-name = "Mission Statement"
-url = "mission/"
-weight = 1

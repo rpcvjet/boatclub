@@ -11,7 +11,7 @@ about:
   title : "UBC Youth"
   content : "Providing youth in adverse socio-economic situations the opportunities they need to flourish" 
 
-  image : "images/dmv.jpg"
+  image : "images/youth2.jpg"
 
 
 ########################## featured service ############################
