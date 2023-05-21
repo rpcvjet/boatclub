@@ -1,6 +1,17 @@
 ---
 bg_image: images/youth.jpg
 draft: false
+
+########################### about service #############################
+about:
+  enable : true
+  title : "UBC Youth"
+  content : "Providing youth in adverse socio-economic situations the opportunities they need to flourish" 
+
+  image : "images/youth2.jpg"
+
+
+########################## featured service ############################
 featured_service:
   enable: false
   service_item:

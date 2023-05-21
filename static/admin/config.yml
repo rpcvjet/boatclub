@@ -18,7 +18,7 @@ collections:
         - {label: "Publish Date", name: "publish_date", widget: "datetime"}
         # - {label: "Intro Blurb", name: "intro_blurb", widget: "text"}
         # - {label: "file", name: "image", widget: "files", required: false}
-        - {label: "body", name: "body", widget: "markdown"}
+        - {label: "content", name: "content", widget: "markdown"}
         - {label: "tags", name: "tags", widget: "list", default: ["post"]}
         # - {label: "author", name: "author", widget: "string"}
         # - {label: "catagories", name: "catagories", widget: "list"} 
