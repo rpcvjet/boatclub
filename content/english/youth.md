@@ -9,7 +9,7 @@ draft: false
 about:
   enable : true
   title : "UBC Youth"
-  content : "Providing youth in adverse socio-economic situations the opportunities they need to flourish" 
+  body : "Providing youth in adverse socio-economic situations the opportunities they need to flourish" 
 
   image : "images/youth2.jpg"
 
