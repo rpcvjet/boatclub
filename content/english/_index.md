@@ -2,7 +2,7 @@
 ############################### Banner ##############################
 banner:
   enable: true
-  bg_image: "images/jumbo_home.jpg"
+  bg_image: "images/ubcSD.jpg"
   bg_overlay: true
   title: "Unity Boat Club"
   content: "Unlocking potential through unity and inclusion one stroke at a time"
