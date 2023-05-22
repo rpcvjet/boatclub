@@ -19,7 +19,7 @@ about:
 "
   content: " <li> The first is by providing a safe space for athletes with intellectual or developmental disabilities to be themselves, grow, and improve their overall wellbeing both mentally and physically. </li>
  <li> The second is by making the sport accessible to athletes in socio-economic circumstances that would otherwise prevent them from participating, and showing them that there are no limits to what they can achieve. </li>
- <li> The third part of AWLRowing's approach is to provide military Veterans with disabilities with the resources, equipment, and guidance they need to find success, strength, and camaraderie in the rowing community. </li>
+ <li> The third part of UBC's approach is to provide military Veterans with disabilities with the resources, equipment, and guidance they need to find success, strength, and camaraderie in the rowing community. </li>
 "
   image: "images/erg1.jpg"
 
