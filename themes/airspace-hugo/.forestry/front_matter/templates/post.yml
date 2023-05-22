@@ -16,9 +16,6 @@ fields:
     name: image
     label: image
   - type: text
-    name: content
-    label: content
-  - type: text
     name: author
     label: author
   - type: text

@@ -1,6 +1,9 @@
 ---
 bg_image: images/youth.jpg
 draft: false
+title: Youth Programs
+description: "Locations: DMV"
+publish_date: 2023-05-21T00:28:28.889Z
 
 ########################### about service #############################
 about:
@@ -31,12 +34,7 @@ featured_service:
       content: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim
         impedit repudiandae omnis est temporibus.
 layout: service
-about:
-  enable: true
-  title: UBC Youth
-  body: Providing youth in adverse socio-economic situations the opportunities
-    they need to flourish
-  image: images/youth2.jpg
+
 cta:
   enable: false
 service:
@@ -78,8 +76,5 @@ service:
       name: Brand Identity
       content: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
         eiusmod tempor incididunt ut
-title: Youth Programs
-description: "Locations: DMV"
-publish_date: 2023-05-21T00:28:28.889Z
+
 ---
-# Providing youth in adverse socio-economic situations the opportunities they need to flourish

@@ -15,7 +15,7 @@ banner:
 about:
   enable: true
   title: "About Us"
-  description: "Unity Boat Club is a program dedicated to unlocking potential through unity and inclusion in rowing. AWLRowing takes a three-pronged approach to enriching the lives of athletes and the sport itself:
+  description: "Unity Boat Club is a program dedicated to unlocking potential through unity and inclusion in rowing. UBC takes a three-pronged approach to enriching the lives of athletes and the sport itself:
 "
   content: " <li> The first is by providing a safe space for athletes with intellectual or developmental disabilities to be themselves, grow, and improve their overall wellbeing both mentally and physically. </li>
  <li> The second is by making the sport accessible to athletes in socio-economic circumstances that would otherwise prevent them from participating, and showing them that there are no limits to what they can achieve. </li>
