@@ -50,14 +50,13 @@ service:
 
 ############################ call to action ###########################
 cta:
-  enable: false
-  bg_image: "images/call-to-action-bg.jpg"
-  title: "We design delightful digital experiences."
-  content: "Read more about what we do and our philosophy of design. Judge for yourself The work and results <br> we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+  enable: true
+  title: "Donate"
+  content: "Every dollar helps us meet our mission, please donate here!"
   button:
     enable: true
-    label: "Tell Us Your Story"
-    link: "contact/"
+    label: "PayPal"
+    link: "https://www.paypal.me/UnityBoatClub?locale.x=en_US"
 
 ############################# Funfacts ###############################
 funfacts:
