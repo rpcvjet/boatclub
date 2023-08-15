@@ -55,8 +55,8 @@ cta:
   content: "Every dollar helps us meet our mission, please donate here!"
   button:
     enable: true
-    label: "PayPal"
-    link: "https://www.paypal.me/UnityBoatClub?locale.x=en_US"
+    label: "Donate"
+    link: "https://givebutter.com/UnityBoatClub"
 
 ############################# Funfacts ###############################
 funfacts:
