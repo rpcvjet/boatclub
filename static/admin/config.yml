@@ -25,13 +25,13 @@ collections:
     label: "News and Events"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    folder: "content/english/blog"
+    folder: "content/english/blog/"
     fields: # The fields each document in this collection have
       - {label: "title", name: "title", widget: "string"}
       - {label: "description", name: "description", widget: "string"}
       - {label: "Backround Image", name: "bg_image", widget: "image", required: false}
       - {label: "Publish Date", name: "publish_date", widget: "datetime"}
       - {label: "image", name: "image", widget: "image", required: false}
-      - {label: "content", name: "content", widget: "markdown"}
+      - {label: "content", name: "content", widget: "text"}
       - {label: "tags", name: "tags", widget: "list", default: ["news/events"]}
       - {label: "author", name: "author", widget: "string"}
