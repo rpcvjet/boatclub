@@ -1,4 +1,4 @@
-media_folder: "static/images/" # Media files will be stored in the repo under static/images/uploads
+media_folder: "/static/images/" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/" # The src attribute for uploaded media will begin with /images/uploads
 
 backend:
@@ -12,28 +12,26 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     folder: "content/english"
     fields: # The fields each document in this collection have
-        - {label: "title", name: "title", widget: "string"}
-        - {label: "description", name: "description", widget: "string"}
-        - {label: "Backround Image", name: "bg_image", widget: "image", required: false}
-        - {label: "Publish Date", name: "publish_date", widget: "datetime"}
-        # - {label: "Intro Blurb", name: "intro_blurb", widget: "text"}
-        - {label: "file", name: "image", widget: "files", required: false}
-        - {label: "content", name: "content", widget: "markdown"}
-        - {label: "tags", name: "tags", widget: "list", default: ["post"]}
-        - {label: "author", name: "author", widget: "string"}
-        # - {label: "catagories", name: "catagories", widget: "list"} 
- - name: "newsandevents"
+      - {label: "title", name: "title", widget: "string"}
+      - {label: "description", name: "description", widget: "string"}
+      - {label: "Backround Image", name: "bg_image", widget: "image", required: false}
+      - {label: "Publish Date", name: "publish_date", widget: "datetime"}
+      - {label: "file", name: "image", widget: "files", required: false}
+      - {label: "content", name: "content", widget: "markdown"}
+      - {label: "tags", name: "tags", widget: "list", default: ["post"]}
+      - {label: "author", name: "author", widget: "string"}
+      # - {label: "catagories", name: "catagories", widget: "list"} 
+  - name: "newsandevents"
     label: "News and Events"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     folder: "content/english/blog"
     fields: # The fields each document in this collection have
-        - {label: "title", name: "title", widget: "string"}
-        - {label: "description", name: "description", widget: "string"}
-        - {label: "Backround Image", name: "bg_image", widget: "image", required: false}
-        - {label: "Publish Date", name: "publish_date", widget: "datetime"}
-        - {label: "file", name: "image", widget: "files", required: false}
-        - {label: "content", name: "content", widget: "markdown"}
-        - {label: "tags", name: "tags", widget: "list", default: ["news/events"]}
-        - {label: "author", name: "author", widget: "string"}
-        # - {label: "catagories", name: "catagories", widget: "list"} 
+      - {label: "title", name: "title", widget: "string"}
+      - {label: "description", name: "description", widget: "string"}
+      - {label: "Backround Image", name: "bg_image", widget: "image", required: false}
+      - {label: "Publish Date", name: "publish_date", widget: "datetime"}
+      - {label: "file", name: "image", widget: "files", required: false}
+      - {label: "content", name: "content", widget: "markdown"}
+      - {label: "tags", name: "tags", widget: "list", default: ["news/events"]}
+      - {label: "author", name: "author", widget: "string"}
