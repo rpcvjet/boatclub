@@ -31,7 +31,13 @@ collections:
       - {label: "description", name: "description", widget: "string"}
       - {label: "Backround Image", name: "bg_image", widget: "image", required: false}
       - {label: "Publish Date", name: "publish_date", widget: "datetime"}
-      - {label: "image", name: "image", widget: "image", required: false, media_library: config: multiple: true }
+      - label: "image",
+         name: "image", 
+         widget: "image", 
+         required: false, 
+         media_library: 
+          config: 
+            multiple: true
       - {label: "content", name: "content", widget: "markdown"}
       - {label: "tags", name: "tags", widget: "list", default: ["news/events"]}
       - {label: "author", name: "author", widget: "string"}
