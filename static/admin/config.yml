@@ -36,3 +36,4 @@ collections:
       - {label: "tags", name: "tags", widget: "list", default: ["news/events"]}
       - {label: "author", name: "author", widget: "string"}
       - {label: "catagories", name: "catagories", widget: "list", default: ["UBC"]} 
+      - {label: "type", name: "post", widget: "text", default: "post"} 
